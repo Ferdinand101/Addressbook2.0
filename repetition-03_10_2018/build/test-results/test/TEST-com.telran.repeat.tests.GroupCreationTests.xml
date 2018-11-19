@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.repeat.tests.GroupCreationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-11-15T13:06:29" hostname="LAPTOP-PPNINR78" time="5.883">
+  <properties/>
+  <testcase name="testGroupCreation[0](Group{groupName='test1', groupHeader='header1', groupFooter='footer1'})" classname="com.telran.repeat.tests.GroupCreationTests" time="1.223"/>
+  <testcase name="testGroupCreation[1](Group{groupName='test2', groupHeader='header2', groupFooter='footer2'})" classname="com.telran.repeat.tests.GroupCreationTests" time="1.173"/>
+  <testcase name="testGroupCreation[2](Group{groupName='test3', groupHeader='header3', groupFooter='footer3'})" classname="com.telran.repeat.tests.GroupCreationTests" time="1.105"/>
+  <testcase name="testGroupCreation[3](Group{groupName='test4', groupHeader='header4', groupFooter='footer4'})" classname="com.telran.repeat.tests.GroupCreationTests" time="1.16"/>
+  <testcase name="testGroupCreation[4](Group{groupName='test5', groupHeader='header5', groupFooter='footer5'})" classname="com.telran.repeat.tests.GroupCreationTests" time="1.221"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

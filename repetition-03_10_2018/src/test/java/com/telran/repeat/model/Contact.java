@@ -32,6 +32,17 @@ public class Contact {
     return  this;
   }
 
+  @Override
+  public String toString() {
+    return "Contact{" +
+            "fName='" + fName + '\'' +
+            ", lName='" + lName + '\'' +
+            ", address='" + address + '\'' +
+            ", email='" + email + '\'' +
+            ", phoneHome='" + phoneHome + '\'' +
+            '}';
+  }
+
   public String getfName() {
     return fName;
   }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.repeat.tests.ContactCreationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-11-15T13:06:20" hostname="LAPTOP-PPNINR78" time="6.627">
+  <properties/>
+  <testcase name="createContactTest[0](Contact{fName='Moshe', lName='Coen', address='Tel-Aviv', email='gg@hh.com', phoneHome='134455566'})" classname="com.telran.repeat.tests.ContactCreationTests" time="1.393"/>
+  <testcase name="createContactTest[1](Contact{fName='Moshe2', lName='Coen2', address='Tel-Aviv', email='gg2@hh.com', phoneHome='234455566'})" classname="com.telran.repeat.tests.ContactCreationTests" time="1.264"/>
+  <testcase name="createContactTest[2](Contact{fName='Moshe3', lName='Coen3', address='Tel-Aviv', email='gg3@hh.com', phoneHome='334455566'})" classname="com.telran.repeat.tests.ContactCreationTests" time="1.354"/>
+  <testcase name="createContactTest[3](Contact{fName='Moshe4', lName='Coen4', address='Tel-Aviv', email='gg4@hh.com', phoneHome='434455566'})" classname="com.telran.repeat.tests.ContactCreationTests" time="1.34"/>
+  <testcase name="createContactTest[4](Contact{fName='Moshe5', lName='Coen5', address='Tel-Aviv', email='gg5@hh.com', phoneHome='534455566'})" classname="com.telran.repeat.tests.ContactCreationTests" time="1.273"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

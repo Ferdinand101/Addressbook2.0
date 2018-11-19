@@ -1,20 +1,27 @@
 package com.telran.repeat.tests;
 
+import com.telran.repeat.Provider.StaticProvider;
 import com.telran.repeat.model.Group;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 public class GroupCreationTests extends TestBase {
-@Test
-  public void testGroupCreation(){
+
+@Test(dataProvider = "validGroups", dataProviderClass = StaticProvider.class)
+  public void testGroupCreation(Group group){
   app.getNavigationHelper().openGroupsPage();
   int before = app.getGroupHelper().getGroupsCount();
 
   app.getGroupHelper().initGroupCreation();
-  app.getGroupHelper().fillGroupForm(new Group()
-                  .withGroupName("")
-                  .withGroupHeader("")
-                  .withGroupFooter(""));
+
+  app.getGroupHelper().fillGroupForm(group);
+
 //          .withGroupName("").withGroupHeader()
 //          .withGroupName("new"), "new 1", "new"));
   app.getGroupHelper().confirmGroupCreation();

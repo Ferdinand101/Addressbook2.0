@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="CVBank" external.linked.project.path="$MODULE_DIR$/../../CVBank" external.root.project.path="$MODULE_DIR$/../../CVBank" external.system.id="GRADLE" external.system.module.group="Ashkelon" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../CVBank">
+      <excludeFolder url="file://$MODULE_DIR$/../../CVBank/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../CVBank/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../CVBank/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

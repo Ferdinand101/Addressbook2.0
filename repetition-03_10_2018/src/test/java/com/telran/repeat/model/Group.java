@@ -20,6 +20,15 @@ public class Group {
     return  this;
   }
 
+  @Override
+  public String toString() {
+    return "Group{" +
+            "groupName='" + groupName + '\'' +
+            ", groupHeader='" + groupHeader + '\'' +
+            ", groupFooter='" + groupFooter + '\'' +
+            '}';
+  }
+
   public String getGroupName() {
     return groupName;
   }
@@ -31,5 +40,6 @@ public class Group {
   public String getGroupFooter() {
     return groupFooter;
   }
+
 
 }
