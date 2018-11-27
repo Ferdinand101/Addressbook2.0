@@ -1,5 +1,7 @@
 package com.telRan.ashkelon;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 public class GroupCreationTests extends TestBase{
@@ -9,6 +11,7 @@ public class GroupCreationTests extends TestBase{
         openGroupsPage();
         initNewGroupCreation();
         fillGroupForm(new GroupData("name", "header", "footer"));
+
         confirmNewGroupCreation();
         returnToGroupsPage();
     }
