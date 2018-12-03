@@ -33,7 +33,7 @@ public class ContactCreationTests extends TestBase {
                 .setAddress("Tel-Aviv")
                 .setEmail("gg@hh.com")
                 .setPhoneHome("134455566")
-                .setGroup("dd")
+                //.setGroup("dd")
         .setPhoto(new File("src/test/resources/cat.jpeg")));
         app.getContactHelper().confirmContactCreation();
 

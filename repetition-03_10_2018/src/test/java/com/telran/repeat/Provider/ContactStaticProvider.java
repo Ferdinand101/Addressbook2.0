@@ -23,7 +23,9 @@ public class ContactStaticProvider {
             list.add(new Object[]{new Contact()
                     .setfName(split[0])
                     .setlName(split[1])
-                    .setAddress(split[2]).setEmail(split[3]).setPhoneHome(split[4])});
+                    .setAddress(split[2])
+                    .setEmail(split[3])
+                    .setPhoneHome(split[4])});
                    /* .withGroupName(split[0])
                     .withGroupHeader(split[1])
                     .withGroupFooter(split[2])});
